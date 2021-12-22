@@ -10,10 +10,10 @@
 # Purpose         : function install the tum-utils package and the terraform.
 #-----------------------------------------------------------------------------------------------------
 
-install_terraform
+install_terraform()
 {
 	##Install yum-utils package
-	yum install -y yum-utils
+	yummm install -y yum-utils
 
 	##Install Terraform
 	yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
