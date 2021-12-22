@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: ./install-terraform.sh
+        run: chmod 777 install-terraform.sh; ./install-terraform.sh
