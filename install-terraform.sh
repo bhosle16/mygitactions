@@ -10,7 +10,7 @@
 # Purpose         : function install the tum-utils package and the terraform.
 #-----------------------------------------------------------------------------------------------------
 
-install_terraform
+install_terraform()
 {
 	##Install yum-utils package
 	yum install -y yum-utils
